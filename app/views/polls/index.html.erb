@@ -1,0 +1,15 @@
+<h1>Polls</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Question</th>
+  </tr>
+
+<% @polls.each do |poll| %>
+  <tr>
+    <td><%= poll.id %></td>
+    <td><%= link_to poll.question, poll %></td>
+  </tr>
+<% end %>
+</table>

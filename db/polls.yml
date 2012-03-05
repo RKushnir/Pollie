@@ -1,0 +1,15 @@
+---
+- !ruby/object:Poll
+  id: 1
+  question: What's your favourite colour?
+  answers:
+  - 'red'
+  - 'green'
+  - 'blue'
+- !ruby/object:Poll
+  id: 2
+  question: 'To be or not to be?'
+  answers:
+  - 'Yes'
+  - 'No'
+  - 'Maybe'

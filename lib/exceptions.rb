@@ -1,0 +1,2 @@
+class PollNotFoundError < StandardError
+end
